@@ -1,0 +1,42 @@
+div {
+    text-align: center;
+    color: white;
+    margin-top: 10px;
+}
+
+#head {
+    text-align: center;
+    margin-top: 230px;
+}
+
+#button{
+    border: 1px solid blue;
+    border-radius: 5px;
+    background: red;
+    padding: 5px;
+    color: white;
+    margin-left: 100px;
+    margin-bottom: 2px;
+}
+
+#surname{
+    padding-right: 18px;
+}
+
+body {
+    background-attachment: scroll;
+}
+
+.ramka{
+    background: green;
+    background-size: 90% auto;
+    color: white;
+    padding: 2px;
+    margin-right: 538px;
+    margin-left: 500px;
+    border-radius: 3px;
+}
+
+#login {
+    margin-left: 28px;
+}
