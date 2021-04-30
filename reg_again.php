@@ -9,7 +9,7 @@
 
 <body>
     <form action="reg_db.php" method="POST">
-        <h1 class="main_heading">Type in your credentials</h1>
+        <h1 class="main_heading">Invalid captcha. Please, try again.</h1>
         <div class="row">
             <label for="login_reg" class="form_label" >LOGIN</label>
             <input type="text" name="login_reg" id="login_reg" class="form_input">

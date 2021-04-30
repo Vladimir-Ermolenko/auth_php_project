@@ -1,42 +1,124 @@
-div {
-    text-align: center;
-    color: white;
-    margin-top: 10px;
-}
-
-#head {
-    text-align: center;
-    margin-top: 230px;
-}
-
-#button{
-    border: 1px solid blue;
-    border-radius: 5px;
-    background: red;
-    padding: 5px;
-    color: white;
-    margin-left: 100px;
-    margin-bottom: 2px;
-}
-
-#surname{
-    padding-right: 18px;
-}
-
 body {
-    background-attachment: scroll;
+    background-color: #dbdbdb;
+    text-align: center;
 }
 
-.ramka{
-    background: green;
-    background-size: 90% auto;
+form {
+    display: inline-block;
+}
+
+#profile {
+    display: inline-block;
+}
+
+.row {
+    background-color: white;
+    padding: 10px;
+    width:550px;
+}
+
+#button {
+    width: 572px;
+    margin-top: 15px;
+    background-color: #4CAF50;
+    border: none;
     color: white;
-    padding: 2px;
-    margin-right: 538px;
-    margin-left: 500px;
-    border-radius: 3px;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    font-family: Verdana;
 }
 
-#login {
-    margin-left: 28px;
+#buttons {
+    width: 286px;
+    margin-top: 12px;
+    background-color: #d9795f;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    font-family: Verdana;
 }
+
+.form_input {
+    margin: 0 auto;
+    width:530px;
+    text-align: left;
+    padding: 10px;
+}
+
+.form_label {
+    margin-bottom: 4px;
+    text-align: left;
+}
+
+input, label {
+    display:block;
+    font-family: Verdana;
+}
+
+.main_heading {
+    width: 550px;
+    padding: 10px;
+    margin-top: 40px;
+    margin-bottom: 0px;
+    background-color: white;
+    font-family: Verdana;
+}
+
+.goods {
+    margin-left: 30px;
+    width: 750px;
+    height: 450px;
+    background-color: white;
+}
+
+#goods_image {
+    width: 350px;
+    height: 350px;
+    padding-left: 48px;
+    padding-top: 0px;
+}
+
+.cell {
+    width: 450px;
+}
+
+.order {
+    text-align: left;
+    padding-bottom: 170px;
+    padding-left: 15px;
+    font-family: Verdana;
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+
+.order_list {
+    line-height: 1.6;
+}
+
+#order_total {
+    font-weight: bold;
+}
+
+.success_message {
+    height: 90%;
+    width:100%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Verdana;
+}
+
+.buttons {
+    margin-left: auto;
+    margin-right: auto;
+}
+
